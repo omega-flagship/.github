@@ -2,7 +2,7 @@
 
 This organisation holds the OmegaHive work, handed over from PhysixSNET to the SingularityNET Omega platform team, which is reorganising it into the team's own repositories.
 
-Some repositories here are public and some are private. The full list, with each repository's tier and visibility, is in [`omegahive-start-here`](https://github.com/omega-flagship/omegahive-start-here).
+Some repositories here are public and some are private. Every handover repository, with its tier and visibility, is listed in [`omegahive-start-here`](https://github.com/omega-flagship/omegahive-start-here).
 
 ## Start here
 
