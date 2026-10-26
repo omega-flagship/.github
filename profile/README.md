@@ -11,6 +11,7 @@ Some repositories here are public and some are private. Every handover repositor
 | See every repository and how the pieces connect | [`omegahive-start-here`](https://github.com/omega-flagship/omegahive-start-here) |
 | See how the platform works, in diagrams | [`omegahive-schematics`](https://github.com/omega-flagship/omegahive-schematics) |
 | Read the architecture decisions and glossary | [`omega-specs`](https://github.com/omega-flagship/omega-specs) |
+| Contribute, and see how work is tracked here | [`CONTRIBUTING.md`](https://github.com/omega-flagship/.github/blob/main/CONTRIBUTING.md) |
 
 ## Public repositories
 
