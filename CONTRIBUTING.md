@@ -10,11 +10,13 @@ Where it goes:
 
 - in the repository the work changes;
 - work that spans repositories, or is about the team itself: the organisation's `.github` repository (public) or `.github-private` (members only);
-- work whose code lives elsewhere, for example the NuNet tools on GitLab that this organisation uses: the organisation's copy of that repository (such as [`nostr-relay`](https://github.com/omega-flagship/nostr-relay)), with the issue linking the merge request there.
+- work whose code lives elsewhere, for example the NuNet tools on GitLab that this organisation uses: the organisation's copy of that repository, with the issue linking the merge request there. If that copy is archived or takes no issues (as [`nostr-relay`](https://github.com/omega-flagship/nostr-relay) is today), the issue goes in `.github-private`, still linking the merge request.
+
+`.github` and the public repositories can be read by anyone. Hostnames, addresses, key and token names, and logs from the team's machines go in `.github-private`, and so does evidence that contains them.
 
 ## The work is done on the issue
 
-Progress, questions, review results and decisions are written on the issue, as comments and labels. A decision taken anywhere else, in a chat, a call or a message between agents, is written back to the issue, or it did not happen as far as the record goes. The issue closes when the pull request that resolves it is merged or the work is delivered.
+Progress, questions, review results and decisions are written on the issue, as comments and labels. A decision taken anywhere else, in a chat, a call or a message between agents, is written back to the issue, or it did not happen as far as the record goes. The issue closes when the pull request that resolves it is merged. Work that has no pull request (a test run, a deploy, a review) closes with a comment that links the evidence: the run, the deploy log, the review.
 
 ## Plans and designs are issues too
 
@@ -34,7 +36,7 @@ A goal that takes more than one task is an **epic**: one issue for the goal, car
 
 ## Agents
 
-Software agents contribute under their own GitHub identity (a GitHub App, `<name>[bot]`), never under a person's account, so that every commit, issue and comment says who made it. An agent's work is marked as such where a reader might otherwise take it for a person's considered judgment. Agents follow these rules exactly as people do: a message between agents is a notification, the issue is the record.
+Software agents contribute under their own GitHub identity (a GitHub App, `<name>[bot]`), never under a person's account, so that every commit, issue and comment says who made it. An agent's work is marked as such where a reader might otherwise take it for a person's considered judgment. GitHub assigns issues to user accounts only, so an issue an agent holds is assigned to the team member responsible for it and carries a `Holder:` line naming the agent; that line says who really holds it. Agents follow these rules exactly as people do: a message between agents is a notification, the issue is the record, and every message about a task links its issue.
 
 ## Where to ask
 
