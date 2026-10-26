@@ -36,7 +36,7 @@ A goal that takes more than one task is an **epic**: one issue for the goal, car
 
 ## Agents
 
-Software agents contribute under their own GitHub identity (a GitHub App, `<name>[bot]`), never under a person's account, so that every commit, issue and comment says who made it. An agent's work is marked as such where a reader might otherwise take it for a person's considered judgment. GitHub assigns issues to user accounts only, so an issue an agent holds is assigned to the team member responsible for it and carries a `Holder:` line naming the agent; that line says who really holds it. Agents follow these rules exactly as people do: a message between agents is a notification, the issue is the record, and every message about a task links its issue.
+Software agents contribute under their own GitHub identity (a GitHub App, `<name>[bot]`), never under a person's account, so that every commit, issue and comment says who made it. An agent's work is marked as such where a reader might otherwise take it for a person's considered judgment. GitHub assigns issues to user accounts only, so an issue an agent holds is assigned to the team member responsible for it and carries a `Holder:` line naming the agent; that line says who really holds it. Agents follow these rules exactly as people do: a message between agents is a notification, the issue is the record, and every message about a task links its issue. What an agent can and cannot do here, and how its work flows, is [AGENTS.md](AGENTS.md).
 
 ## Where to ask
 
